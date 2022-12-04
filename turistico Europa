@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+	<html lang="en">
+	<head>
+	    <meta charset="UTF-8">
+	    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	    <title>Lugares Turisticos na Europa</title>
+	</head>
+	<body>
+	    <header>
+	        <h1>Lugares Turisticos da Europa</h1>
+	            <ul>
+	              
+	                <li>Pontos Turísticos Europeus</li>
+	            </ul>
+	    </header>
+	    <main>
+	        <section>
+	            <img src="./imagens/paris.jpg" alt="" width="400px" height="200px"/>
+	            <h2>Paris, França </h2>
+	            
+	            <p> <a
+href="https://pt.wikipedia.org/wiki/Paris">Paris</a> Paris é a capital e a mais populosa cidade da França, com uma população estimada em 2020 de 2 148 271 habitantes em uma área de 105 quilômetros quadrados.Desde o século XVII, Paris é um dos principais centros de finanças, diplomacia, comércio, moda, ciência e artes da Europa. A cidade de Paris é o centro e sede de governo da região administrativa de Ilha de França, que tem uma população estimada em 2020 </p>
+	    
+	        </section>
+	        <section>
+	            <img src="./imagens/coliseu.jpg" alt="" width="400px" height="200px"/>
+	            <h2>Munique, Alemanha</h2>
+	            
+	            <p> <a href="https://pt.wikipedia.org/wiki/Coliseu"> Coliseu</a> Coliseu (em italiano: Colosseo), também conhecido como Anfiteatro Flaviano (em latim: Amphitheatrum Flavium; em italiano: Anfiteatro Flavio), é um anfiteatro oval localizado no centro da cidade de Roma, capital da Itália. Construído com tijolos revestidos de argamassa e areia, e originalmente cobertos com travertino é o maior anfiteatro já construído e está situado a leste do Fórum Romano.
+A construção começou sob o governo do imperador Vespasiano em 72 d.C. e foi concluída em 80 d.C., sob o regime do seu sucessor e herdeiro, Tito.Outras modificações foram feitas durante o reinado de Domiciano (81-96). Estes três imperadores são conhecidos como a dinastia flaviana e o anfiteatro foi nomeado em latim desta maneira por sua associação com o nome da família (Flavius).</p>
+	    
+	        </section>
+	        <section>
+	            <img src="./imagens/londres.jpg" alt="" width="400px" height="200px"/>
+	            <h2>Londres, Inglaterra</h2>
+	            
+	            <p> <a href="https://pt.wikipedia.org/wiki/Londres">Londres </a> Londres é a capital da Inglaterra e do Reino Unido. Por dois milênios, foi um grande povoado e sua história remonta à sua fundação pelos romanos, quando foi nomeada Londínio. O centro de Londres, a antiga City of London, também conhecida como The Square Mile ou The City, mantém suas fronteiras medievais. Pelo menos desde o século XIX, o nome "Londres" se refere à metrópole desenvolvida em torno desse núcleo. Hoje, a maior parte dessa conurbação constitui a região da Grande Londres, cuja área administrativa tem seu próprio prefeito eleito e assembleia. A cidade abriga a sede da Comunidade das Nações.
+</p>
+	    
+	        </section>
+	        <section>
+	            <img src="./imagens/paris.jpg" alt="" width="400px" height="200px"/>
+	            <h2>Amsterdã, Holanda</h2>
+	            
+	            <p> <a href="https://pt.wikipedia.org/wiki/Amsterdã">Amsterdã</a> Amsterdã é a capital da Holanda, conhecida por seu patrimônio artístico, um elaborado sistema de canais e casas estreitas com telhados de duas águas, legados da era dourada do século XVII na cidade. O bairro de museus abriga o Museu Van Gogh, o Rijksmuseum, com obras de Rembrandt e Vermeer, e o Stedelijk, que privilegia a arte moderna. O ciclismo é uma característica essencial da cidade, que tem grande quantidade de ciclovias. </p>
+	    
+	        </section>
+	    </main>
+	   <footer>
+	        Siga Paises Europeus nas redes Sociais
+	   </footer>
+	
+
+	</body>
+	</html>
