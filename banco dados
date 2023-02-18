@@ -1,0 +1,37 @@
+CREATE TABLE produto(
+	  id serial PRIMARY Key,
+	  descricao VARCHAR(100) NOT NULL,
+	  valor NUMERIC(5,2)
+	);
+	
+
+	CREATE TABLE cliente(
+	  id serial PRIMARY KEY,
+	  nome VARCHAR(30) NOT NULL,
+	  email VARCHAR(30) NOT NULL
+	);
+	
+
+	create table cliente_produto(
+	  fk_id_cliente INT,
+	  fk_id_produto INT,
+	  quantidade int,
+	  valor_total NUMERIC(5,2),
+	  CONSTRAINT fk_id_cliente FOREIGN key(fk_id_cliente) REFERENCES cliente(id),
+	  CONSTRAINT fk_id_produto FOREIGN key(fk_id_produto) REFERENCES produto(id),
+	  CONSTRAINT pk_cliente_produto PRIMARY KEY(fk_id_cliente,fk_id_produto)
+	);
+	
+
+	CREATE TABLE log_produto(
+	  id serial PRIMARY KEY,
+	  operacao VARCHAR(20),
+	  id_operacao int,
+	  produto_operacao VARCHAR(50),
+	  data_hora_operacao TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+	);
+	
+
+	
+	
+	
